@@ -1,0 +1,67 @@
+/* Color Palette: https://colorhunt.co/palette/2d32504247697077a1f6b17a*/
+
+:root {
+  --logo--color: #f6b17a;
+  --button--color: #7077a1;
+  --background-color: #2d3250;
+  --border--color: #424769;
+}
+
+#root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.logo {
+  color: var(--logo--color);
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  background-color: var(--button--color);
+}
+
+button:hover {
+  background-color: var(--logo--color);
+}
+
+::placeholder {
+  font-size: 12px;
+  padding-left: 4px;
+  vertical-align: middle;
+}
+
+input {
+  border: 1px solid var(--border--color);
+}
+
+/* ==== SIDEBAR ==== */
+
+.stocky-sidebar > li {
+  list-style: none;
+  margin-bottom: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.stocky-sidebar > li:hover {
+  color: var(--logo--color);
+}
+
+.profil > a > strong:hover {
+  color: var(--logo--color);
+}
+
+.logout {
+  text-decoration: none;
+  color: var(--background-color);
+  font-weight: 900;
+}
+
+.logout:hover {
+  color: var(--logo--color);
+}
